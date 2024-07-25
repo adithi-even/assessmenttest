@@ -116,7 +116,7 @@ const Assessment = () => {
                   name={`subquestion${index}`}
                   // onChange={(e) => setName(e.target.value)}
                   onChange={() => handleOptionChange(index, option.score)}
-                  checked={selectedAnswers[index] === option.score}
+                  // checked={selectedAnswers[index] === option.score}
                 />
                 {option.text}
               </label>
